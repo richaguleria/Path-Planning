@@ -14,7 +14,7 @@ Following are the steps implemented for the path planning project,
         If frenet s between vehicle ahead of the ego vehicle is less than 40 units,
         check if left lane change is possible using fusion data. Ego vehicle to move to the left lane only if left lane vehicles are at good gap ( frenet s between left lane vehicles and the ego vehicle > 30 units). 
     2. State transition: "Keep lane"  ---> "Change Right Lane" ---> "Keep lane"
-       If frenet s between vehicle ahead of the ego vehicle is less than 40 units and left lane change is not possible, check if right lane change is possible using fusion data and changing to the right lane only if right lane vehicles are at good gap ( frenet s between right lane vehicles and the gro vehicle > 30). 
+       If frenet s between vehicle ahead of the ego vehicle is less than 40 units and left lane change is not possible, check if right lane change is possible using fusion data and changing to the right lane only if right lane vehicles are at good gap ( frenet s between right lane vehicles and the ego vehicle > 30). 
 
 2. Trajectory Generation: 
    Spline interpolation is used to determine future path points. 
